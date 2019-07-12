@@ -28,7 +28,11 @@ def using_push(array, string)
     array.shift(2)
   end
   
-  def using_concat
+  def using_concat(array, array)
+   array1 = ["raindrops on roses", "whiskers on kittens"]
+    array2 = ["sports cars", "flatiron school"]
+    array.concat("array2")
+  end
     
   
   
